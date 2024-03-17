@@ -43,7 +43,7 @@ public class VerhuurProduct {
         if(exemplaren.getStatus()){
             return "ja" + exemplaren.getPeriode();
         }else{
-            return "nee" + null;
+            return "nee";
         }
     }
 }
